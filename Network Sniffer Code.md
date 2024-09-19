@@ -4,15 +4,6 @@
 ## Project Description
 This project involves building a basic network sniffer using Python, which captures and analyzes network traffic. The sniffer captures packets on the network, allowing us to examine their structure and contents. This project provides a deeper understanding of how data flows across networks.
 
-## Dependencies
-- **Python 3.x**
-- **Scapy** (A powerful Python library for network packet manipulation)
-
-To install the required library, run:
-```bash
-pip install scapy
-```
-
 ## Network Sniffer Code
 
 ```python
@@ -73,7 +64,4 @@ def packet_handler(packet):
 ```
 
 ## Conclusion
-This basic network sniffer captures and analyzes network traffic in real-time. It is a great way to understand the structure of network packets and how data is transmitted over the network. You can enhance the sniffer further by adding filters, real-time analysis, or saving packets for later inspection.
-
-## Submission
-Please find attached the Python script and this documentation as part of the submission.
+This basic network sniffer captures and analyzes network traffic in real-time. It is a way to understand the structure of network packets and how data is transmitted over the network.
